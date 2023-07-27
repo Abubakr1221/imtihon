@@ -1,0 +1,41 @@
+.icon{
+    &__card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+        padding-left: 168px;
+        padding-right: 165px;
+        padding-bottom: 32px;
+        background: #333A44;
+    }
+    &-card-box__text {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        :hover {
+            color: #FCB72B;
+        }
+    }
+    &-card__text {
+        color: #939CAA;
+        font-family: "Space Mono";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .icon {
+        color: #FCB72B;
+    }
+    &-card-box__img {
+        display: flex;
+        gap: 30px;
+        :hover {
+           color: #E5ECF4;
+        }
+    }
+    &-last__img {
+        padding-right: 40px;
+    }
+}

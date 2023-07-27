@@ -1,0 +1,69 @@
+.hero {
+    padding-bottom: 160px;
+    &__card {
+        display: flex;
+        flex-direction: column;
+        background-image:url(../../images/gradiyent.png ), url(../../images/Bitmap.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-card__title {
+        width: 500px;
+        color: #FFF;
+        font-family: "Space Mono";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        padding-top: 153px;
+        margin-left: 165px;
+    }
+    &-card__path {
+        display: flex;
+        align-items: center;   
+    }
+    &-card-box__img {
+        position: relative;
+        top: -125px;
+    }
+    &-card-box-last__img {
+        position: relative;
+        top: -55px;
+    }
+    &-card-box__text {
+        padding-left: 57px;
+        padding-right: 40px;
+    }
+    &-card__text {
+        width: 405px;
+        color: #FFF;
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    &-card-box__btn {          
+        padding-top: 40px;
+        padding-bottom: 152px;
+        :hover {
+            color:#FCB72B;
+            opacity: 0.90;
+            background:#606570;
+        }
+    }
+    &-card__btn {
+        padding: 14px 39px;
+        border: 3px solid #FCB72B;
+        color: #FFF;
+        font-family: "Space Mono";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+        background: #FCB72B;
+    }
+}
+
+
